@@ -2,12 +2,15 @@
 __pycache__/
 *.pyc
 
+# Word documents (keep out of git)
+*.docx
+~$*.docx
+
 # Temp / Work folders
 temp/
 tomcat.*/
 **/temp/
 **/tomcat.*/
-~$*.docx
 
 # Maven & Build artifacts
 **/target/
